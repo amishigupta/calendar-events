@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Event Extractor",
+  "version": "1.0.0",
+  "description": "Capture a screenshot of the current tab and extract calendar event details from it.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Extract Event"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://calendar-events-phi.vercel.app/*"]
+}
